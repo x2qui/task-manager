@@ -55,6 +55,16 @@ Once the application is running:
 ### Delete Task
 - Click the trash icon 🗑️ to delete a task.
 
+## Getting Started
+### Install frontend Dependencies
+```bash
+npm install
+```
+
+### Starting the app
+```bash
+npm start
+```
 
 
 
