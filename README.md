@@ -1,46 +1,63 @@
-# Getting Started with Create React App
+# HMCTS Task Manager
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A full-stack case task management application built as part of the HMCTS developer challenge. This system allows caseworkers to manage, update, and track tasks efficiently using a modern UI and REST API.
 
-## Available Scripts
 
-In the project directory, you can run:
+# ✨ Features
 
-### `npm start`
+- 📋 Create, view, update, and delete tasks
+- 📁 Upload and download task attachments
+- 🔍 Search by Task ID or Case Number
+- 🎯 Filter tasks by status (Open, In Progress, Completed)
+- 🧪 Unit and integration tests using Jest + Supertest
+- ⚡ Built with React, TypeScript, Node.js, Express, and Prisma
+- 💾 SQLite database (default)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# 🖥️ Tech Stack
 
-### `npm test`
+# Frontend
+- React + TypeScript
+- Tailwind CSS
+- Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# Backend
+- Node.js + Express
+- TypeScript
+- Prisma ORM
+- SQLite
+- Multer (file uploads)
 
-### `npm run build`
+# Testing
+- Jest
+- Supertest
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 📚 How to use
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Once the application is running:
 
-### `npm run eject`
+### 1.Create a Task
+- Use the form on the right-hand side.
+- Enter the title, case number, description, due date, status, and optionally upload a file.
+- Click "Create Task" to submit.
+### View Tasks
+- All created tasks will appear in the left column.
+- Each task card displays title, case number, due date, and description.
+### Search Tasks
+- Use the search bar to find tasks by ID or Case Number.
+### Filter Tasks
+- Use the tabs at the top to filter by status: All Cases, Open Cases, In Progress, Completed.
+### Update Status
+- Click the status badge on any task card to cycle between statuses.
+### Download Attachments
+- If a task has a file, click “Download” to retrieve it.
+### Delete Task
+- Click the trash icon 🗑️ to delete a task.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
